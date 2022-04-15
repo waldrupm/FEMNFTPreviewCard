@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/output.css">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="bg-main-bg font-sans">
+  <main class="flex h-screen">
+    <section class="w-card-width m-auto bg-card-bg p-5 rounded-2xl pb-7 drop-shadow-2xl">
+      <img src="./images/image-equilibrium.jpg" alt="NFT Preview of Equilibrium #3429" class="rounded-xl">
+      <h1 class="text-xl text-white font-semibold pt-5 pb-4">Equilibrium #3429</h1>
+
+      <p class="text-lg text-soft-blue font-light">Our Equilibrium collection promotes balance and calm.</p>
+
+      <div class="w-full flex justify-between px-0 py-4 border-b-1 border-line mb-4">
+        <span class="text-cyan font-semibold align-text-bottom"><img src="./images/icon-ethereum.svg"
+            alt="Ethereum Logo" class="inline mr-1 pb-1"> 0.041 ETH</span>
+        <span class="text-soft-blue align-text-bottom"><img src="./images/icon-clock.svg" alt="Clock Icon"
+            class="inline mr-1 pb-1"> 3
+          days left</span>
+
+      </div>
+
+      <span class="text-soft-blue"><img src="./images/image-avatar.png" alt="Jules Wyvern Picture"
+          class="inline w-8 h-8 border-1 border-white rounded-full mr-2"> Creation of <span class="text-white">Jules
+          Wyvern</span></span>
+
+    </section>
+
+  </main>
+
+  <footer class="attribution text-white">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/waldrupm">Mike Waldrup</a>.
+  </footer>
+</body>
+
+</html>
